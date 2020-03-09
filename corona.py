@@ -35,5 +35,5 @@ for i in range(len(death)):
     sum1 += deaths[i]
     
 print("total deaths today :",sum1)
-plt.plot(x , deaths)
-plt.show()
+#plt.plot(x , deaths)
+#plt.show()
