@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
+import numpy as np
 url = "https://www.worldometers.info/coronavirus/"
 
 r = requests.get(url)
@@ -35,5 +36,10 @@ for i in range(len(death)):
     sum1 += deaths[i]
     
 print("total deaths today :",sum1)
+<<<<<<< HEAD
 #plt.plot(x , deaths)
 #plt.show()
+=======
+plt.plot(x , deaths)
+plt.show()
+>>>>>>> 771979ea39fb36271387d645ea1578e48fac476f
