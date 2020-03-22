@@ -36,10 +36,3 @@ for i in range(len(death)):
     sum1 += deaths[i]
     
 print("total deaths today :",sum1)
-<<<<<<< HEAD
-#plt.plot(x , deaths)
-#plt.show()
-=======
-plt.plot(x , deaths)
-plt.show()
->>>>>>> 771979ea39fb36271387d645ea1578e48fac476f
